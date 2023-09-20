@@ -1,3 +1,6 @@
+"use client"
+
+import Hero from '@/components/landing/hero'
 import Navbar from '@/components/landing/navbar'
 
 export default function Home() {
@@ -9,7 +12,7 @@ export default function Home() {
       </section>
         <hr className='w-full text-gray' />
       <section>
-        Hero
+        <Hero />
       </section>
         <hr className='w-full text-gray' />
       <section>
