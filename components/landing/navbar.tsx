@@ -39,6 +39,7 @@ const Navbar = () => {
          alt="menu"
          width={19}
          height={14}
+         draggable={false}
          />
       </div>
     </div>

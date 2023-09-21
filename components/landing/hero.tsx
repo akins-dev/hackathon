@@ -22,7 +22,7 @@ const Hero = () => {
                     <h1 className='flex font-bold text-[30px] md:text-[40px] lg:text-[60px] xl:text-[70px] 2xl:text-[100px] mb-[10px] clash-display'>Hackathon &nbsp; <span className="text-cpink">1.0</span></h1>
                 </div>
                 <div className="flex max-w-[250px] md:max-w-[360px] lg:max-w-[430px] leading-normal mb-[20px]">
-                    <p className="font-semibold text-center md:text-start text-[10px] lg:text-[16px]">Participate in getlinked tech Hackathon 2023 stand a chance to win a Big prize</p>
+                    <p className="md:font-semibold text-center md:text-start text-[10px] lg:text-[16px]">Participate in getlinked tech Hackathon 2023 stand a chance to win a Big prize</p>
                 </div>
                 <div>
                     <Button content="Register" />
@@ -35,10 +35,11 @@ const Hero = () => {
             </div>
             <div className="flex-grow mr-[2px] z-0">
                 <Image
-                    src="/Group2.png"
+                    src="/hackathonGuy.png"
                     alt="menu"
                     width={500}
                     height={363}
+                    draggable={false}
                     className='flex float-right'
                 />
             </div>
