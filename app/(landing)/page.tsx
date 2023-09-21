@@ -19,11 +19,11 @@ export default function Home() {
   return (
     <div className="flex flex-col bg-bkg text-white overflow-hidden">
 
-      <section>
+      <section className="2xl:mx-[300px]">
         <Navbar />
       </section>
         <hr className='w-full text-gray' />
-      <section>
+      <section className="2xl:mx-[300px]">
         <Hero />
       </section>
         <hr className='w-full text-gray' />

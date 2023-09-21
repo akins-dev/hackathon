@@ -7,7 +7,7 @@ import Image from "next/image"
 
 const Navbar = () => {
   return (
-    <div className="flex lg:mt-[50px] mt-[20px] lg:mb-[20px] mb-[10px] lg:mx-[60px] xl:mx-[100px] 2xl:mx-[200px] mx-[50px] justify-between items-center overflow-hidden">
+    <div className="flex lg:mt-[50px] mt-[20px] lg:mb-[20px] mb-[10px] lg:mx-[60px] xl:mx-[100px] 2xl:mx-[200px] mx-[30px] justify-between items-center overflow-hidden">
       <div className="lg:text-[36px] md:text-[24px] sm:text-[15px] font-bold clash-display">
         <Link href="/">
           get<span className="text-cpink">linked</span>
