@@ -7,25 +7,25 @@ import Image from "next/image"
 
 const Navbar = () => {
   return (
-    <div className="flex lg:mt-[50px] mt-[20px] lg:mb-[20px] mb-[10px] lg:mx-[100px] 2xl:mx-[200px] mx-[50px] justify-between items-center overflow-hidden">
-      <div className="lg:text-[36px] md:text-[24px] sm:text-[15px] font-bold">
+    <div className="flex lg:mt-[50px] mt-[20px] lg:mb-[20px] mb-[10px] lg:mx-[60px] xl:mx-[100px] 2xl:mx-[200px] mx-[50px] justify-between items-center overflow-hidden">
+      <div className="lg:text-[36px] md:text-[24px] sm:text-[15px] font-bold clash-display">
         <Link href="/">
           get<span className="text-cpink">linked</span>
         </Link>
       </div>
 
       <div className="hidden items-center gap-x-10 xl:gap-x-24 md:flex">
-        <div className="flex items-center md:gap-x-4 lg:gap-x-8 xl:gap-x-12">
-          <div className="flex font-semibold lg:text-[16px] md:text-sm cursor-pointer">
+        <div className="flex items-center md:gap-x-3 lg:gap-x-8 xl:gap-x-12">
+          <div className="flex font-medium lg:text-[16px] md:text-sm cursor-pointer">
             Timeline
           </div>
-          <div className="flex font-semibold lg:text-[16px] md:text-sm cursor-pointer">
+          <div className="flex font-medium lg:text-[16px] md:text-sm cursor-pointer">
             Overview
           </div>
-          <div className="flex font-semibold lg:text-[16px] md:text-sm cursor-pointer">
+          <div className="flex font-medium lg:text-[16px] md:text-sm cursor-pointer">
             FAQ
           </div>
-          <div className="flex cursor-pointer">
+          <div className="flex font-medium cursor-pointer">
             Contact
           </div>
         </div>
