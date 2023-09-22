@@ -11,6 +11,10 @@ import {
 
 const accordionObject = [
   {
+    question: "Can I work on a project I started berore the hackathon?",
+    answer: "Yes. It adheres to the WAI-ARIA design pattern."
+  },
+  {
     question: "What happens if I need help during the hackathon?",
     answer: "Yes. It adheres to the WAI-ARIA design pattern."
   },
@@ -25,7 +29,11 @@ const accordionObject = [
   {
     question: "What happens after the hackathon ends?",
     answer: "Yes. It adheres to the WAI-ARIA design pattern."
-  }
+  },
+  {
+    question: "Can I work on a project I started berore the hackathon?",
+    answer: "Yes. It adheres to the WAI-ARIA design pattern."
+  },
 ]
 
 const FAQ = () => {
@@ -37,21 +45,13 @@ const FAQ = () => {
           <h2 className="font-bold text-center md:text-start">Frequently Asked</h2>
           <h2 className="font-bold text-center md:text-start text-cpink">Questions </h2>
         </div>
-        <div className="flex flex-col font-semibold mt-[14px] leading-loose max-w-[390px] 2xl:max-w-[1200px] text-center md:text-start text-[10px] md:text-[12px] lg:text-[14px]">
+        <div className="flex flex-col mb-[20px] font-semibold mt-[14px] leading-loose max-w-[390px] 2xl:max-w-[1200px] text-center md:text-start text-[10px] md:text-[12px] lg:text-[14px]">
           <div>
             We got answers to the questions that you might want to ask about
             &nbsp;<span className="font-bold">getlinked Hackathon 1.0</span>
           </div>
         </div>
         <div className="flex max-w-[500px] flex-col">
-          <Accordion type="single" collapsible>
-            <AccordionItem value="item-1">
-              <AccordionTrigger className="font-semibold text-[10px] md:text-[12px] lg:text-[14px]">Can I work on a project I started berore the hackathon?&nbsp; &nbsp; &nbsp; &nbsp;</AccordionTrigger>
-              <AccordionContent>
-                Yes. It adheres to the WAI-ARIA design pattern.
-              </AccordionContent>
-            </AccordionItem>
-          </Accordion>
           {
             accordionObject?.map((item) => (
               <Accordion type="single" collapsible key={item.question}>
@@ -64,14 +64,6 @@ const FAQ = () => {
               </Accordion>
             ))
           }
-          <Accordion type="single" collapsible>
-            <AccordionItem value="item-1">
-              <AccordionTrigger className="font-semibold text-[10px] md:text-[12px] lg:text-[14px]">Can I work on a project I started berore the hackathon?&nbsp; &nbsp; &nbsp; &nbsp;</AccordionTrigger>
-              <AccordionContent>
-                Yes. It adheres to the WAI-ARIA design pattern.
-              </AccordionContent>
-            </AccordionItem>
-          </Accordion>
         </div>
       </div>
       <div className="flex my-auto 2xl:mr-[400px] ">
