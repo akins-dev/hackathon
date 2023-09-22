@@ -24,8 +24,7 @@ export default function Home() {
 
   return (
     <div className="flex relative flex-col bg-bkg text-white overflow-hidden">
-      <div className=" 
-      absolute w-[200px] h-[150px] md:h-[200px] top-[120px] bg-cpurple
+      <div className="absolute w-[200px] h-[150px] md:h-[200px] top-[120px] bg-cpurple
       rounded-full md:left-[240px] custom-blur z-0 " />
       <div className=" hidden md:flex
       absolute w-[200px] h-[200px] top-[240px] bg-cpurple

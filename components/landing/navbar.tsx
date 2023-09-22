@@ -1,9 +1,13 @@
 "use client"
 
 import Link from "next/link"
+import Image from "next/image"
 
 import Button from "@/components/button"
-import Image from "next/image"
+import { cn } from "@/lib/utils"
+
+const constantClassName = "flex font-medium cursor-pointer bg-clip-text hover:text-transparent bg-gradient-to-r from-cpurple via-cpink  to-cpinkx transition-colors duration-300 active:text-transparent"
+
 
 const Navbar = () => {
   return (
@@ -16,16 +20,16 @@ const Navbar = () => {
 
       <div className="hidden items-center gap-x-10 xl:gap-x-24 md:flex">
         <div className="flex items-center md:gap-x-3 lg:gap-x-8 xl:gap-x-12">
-          <div className="flex font-medium lg:text-[16px] md:text-sm cursor-pointer">
+          <div className={cn("lg:text-[16px] md:text-sm", constantClassName)}>
             Timeline
           </div>
-          <div className="flex font-medium lg:text-[16px] md:text-sm cursor-pointer">
+          <div className={cn("lg:text-[16px] md:text-sm", constantClassName)}>
             Overview
           </div>
-          <div className="flex font-medium lg:text-[16px] md:text-sm cursor-pointer">
+          <div className={cn("lg:text-[16px] md:text-sm", constantClassName)}>
             FAQ
           </div>
-          <div className="flex font-medium cursor-pointer">
+          <div className={constantClassName}>
             Contact
           </div>
         </div>
