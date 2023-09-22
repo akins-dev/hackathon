@@ -16,8 +16,8 @@ const Rules = () => {
       </div>
       <div className="flex flex-col mt-[40px] md:my-auto">
         <div className="flex flex-col text-[18px] md:text-[24px] lg:text-[32px] leading-normal clash-display">
-          <h2 className="font-bold text-center md:text-start">Introduction to getlinked</h2>
-          <h2 className="font-bold text-center md:text-start text-cpink">Tech Hackathon 1.0  </h2>
+          <h2 className="font-bold text-center md:text-start">Rules and</h2>
+          <h2 className="font-bold text-center md:text-start text-cpink">Guidlines </h2>
         </div>
         <div className="flex font-semibold mt-[14px] leading-loose max-w-[535px] 2xl:max-w-[1200px] text-center md:text-start text-[10px] md:text-[12px] lg:text-[14px]">
           Our tech hackathon is a melting pot of visionaries, and its purpose is as clear as day;
