@@ -5,6 +5,7 @@ import { useEffect, useState } from 'react'
 import Hero from '@/components/landing/hero'
 import Navbar from '@/components/landing/navbar'
 import Introduction from '@/components/landing/introduction'
+import Rules from '@/components/landing/rules'
 
 export default function Home() {
   const [isMounted, setIsMounted] = useState(false)
@@ -18,8 +19,13 @@ export default function Home() {
   }
 
   return (
-    <div className="flex flex-col bg-bkg text-white overflow-hidden">
-
+    <div className="flex relative flex-col bg-bkg text-white overflow-hidden">
+      <div className=" 
+      absolute w-[200px] h-[150px] md:h-[200px] top-[120px] bg-cpurple
+      rounded-full md:left-[240px] custom-blur z-0 " />
+      <div className=" hidden md:flex
+      absolute w-[200px] h-[200px] top-[240px] bg-cpurple
+      right-[40px] custom-blur2 z-50 " />
       <section className="2xl:mx-[300px]">
         <Navbar />
       </section>
@@ -33,7 +39,7 @@ export default function Home() {
       </section>
         <hr className='w-full text-gray' />
       <section className="2xl:mx-[300px]">
-        Rules
+        <Rules />
       </section>
         <hr className='w-full text-gray' />
       <section className="2xl:mx-[300px]">

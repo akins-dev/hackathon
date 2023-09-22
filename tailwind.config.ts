@@ -15,7 +15,8 @@ const config: Config = {
         cpurple: '#903AFF',
         cpink: '#D434FE',
         white: '#FFFFFF',
-        gray: '#1E1E1E'
+        gray: '#1E1E1E',
+        cdark: "#100B20"
       },
     },
   },

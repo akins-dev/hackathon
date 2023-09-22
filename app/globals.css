@@ -118,3 +118,10 @@ body,
 .clash-display {
   font-family: "ClashDisplay-Variable", sans-serif;
 }
+
+.custom-blur {
+  filter: blur(120px);
+}
+.custom-blur2 {
+  filter: blur(220px);
+}

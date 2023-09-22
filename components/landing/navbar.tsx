@@ -7,7 +7,7 @@ import Image from "next/image"
 
 const Navbar = () => {
   return (
-    <div className="flex lg:mt-[50px] mt-[20px] lg:mb-[20px] mb-[10px] lg:mx-[60px] xl:mx-[100px] 2xl:mx-[200px] mx-[30px] justify-between items-center overflow-hidden">
+    <div className="flex lg:mt-[50px] mt-[20px] lg:mb-[20px] mb-[10px] lg:mx-[60px] xl:mx-[100px] 2xl:mx-[200px] mx-[30px] justify-between items-center overflow-hidden z-50">
       <div className="lg:text-[36px] md:text-[24px] sm:text-[15px] font-bold clash-display">
         <Link href="/">
           get<span className="text-cpink">linked</span>
@@ -33,13 +33,14 @@ const Navbar = () => {
           <Button content="Register" />
         </div>
       </div>
-      <div className="md:hidden flex top-10 cursor-pointer">
+      <div className="md:hidden flex top-10 cursor-pointer z-50">
         <Image
          src="/menu.png"
          alt="menu"
          width={19}
          height={14}
          draggable={false}
+         className="felx z-50"
          />
       </div>
     </div>

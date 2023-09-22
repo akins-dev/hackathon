@@ -18,8 +18,8 @@ const Hero = () => {
         <div className="flex flex-col md:flex-row">
             <div className="flex flex-col items-center md:items-start md:ml-[30px] lg:ml-[60px] xl:ml-[100px] 2xl:ml-[200px] leading-tight z-50">
                 <div>
-                    <h1 className='flex font-bold text-[30px] md:text-[40px] lg:text-[60px] xl:text-[70px] 2xl:text-[100px] mt-[30px] clash-display'>getlinked Tech</h1>
-                    <h1 className='flex font-bold text-[30px] md:text-[40px] lg:text-[60px] xl:text-[70px] 2xl:text-[100px] mb-[10px] clash-display'>Hackathon &nbsp; <span className="text-cpink">1.0</span></h1>
+                    <h1 className='flex font-bold text-[30px] md:text-[34px] lg:text-[49px] xl:text-[70px] 2xl:text-[100px] mt-[30px] clash-display'>getlinked Tech</h1>
+                    <h1 className='flex font-bold text-[30px] md:text-[34px] lg:text-[49px] xl:text-[70px] 2xl:text-[100px] mb-[10px] clash-display'>Hackathon &nbsp; <span className="text-cpink">1.0</span></h1>
                 </div>
                 <div className="flex max-w-[250px] md:max-w-[360px] lg:max-w-[430px] leading-normal mb-[20px]">
                     <p className="md:font-semibold text-center md:text-start text-[10px] lg:text-[16px]">Participate in getlinked tech Hackathon 2023 stand a chance to win a Big prize</p>
@@ -35,12 +35,20 @@ const Hero = () => {
             </div>
             <div className="flex-grow mr-[2px] z-0">
                 <Image
+                    src="/hackathonGuy2.png"
+                    alt="menu"
+                    width={700}
+                    height={563}
+                    draggable={false}
+                    className='hidden md:flex float-right z-0'
+                />
+                <Image
                     src="/hackathonGuy.png"
                     alt="menu"
                     width={500}
                     height={363}
                     draggable={false}
-                    className='flex float-right'
+                    className='md:hidden flex float-right z-0'
                 />
             </div>
         </div>
