@@ -6,6 +6,7 @@ import Hero from '@/components/landing/hero'
 import Navbar from '@/components/landing/navbar'
 import Introduction from '@/components/landing/introduction'
 import Rules from '@/components/landing/rules'
+import Attributes from '@/components/landing/attributes'
 
 export default function Home() {
   const [isMounted, setIsMounted] = useState(false)
@@ -43,7 +44,7 @@ export default function Home() {
       </section>
         <hr className='w-full text-gray' />
       <section className="2xl:mx-[300px]">
-        Attributes
+        <Attributes />
       </section>
         <hr className='w-full text-gray' />
       <section className="2xl:mx-[300px]">

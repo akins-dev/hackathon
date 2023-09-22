@@ -14,6 +14,7 @@ const config: Config = {
         gradienty: '#903AFF',
         cpurple: '#903AFF',
         cpink: '#D434FE',
+        cpinkx: '#FF26B9',
         white: '#FFFFFF',
         gray: '#1E1E1E',
         cdark: "#100B20"
