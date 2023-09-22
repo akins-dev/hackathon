@@ -7,6 +7,9 @@ import Navbar from '@/components/landing/navbar'
 import Introduction from '@/components/landing/introduction'
 import Rules from '@/components/landing/rules'
 import Attributes from '@/components/landing/attributes'
+import FAQ from '@/components/landing/faq'
+import { Separator } from "@/components/ui/separator"
+
 
 export default function Home() {
   const [isMounted, setIsMounted] = useState(false)
@@ -30,43 +33,43 @@ export default function Home() {
       <section className="2xl:mx-[300px]">
         <Navbar />
       </section>
-        <hr className='w-full text-gray' />
+        <Separator className='bg-[#1E1E1E] h-[0.8px]' />
       <section className="2xl:mx-[300px]">
         <Hero />
       </section>
-        <hr className='w-full text-gray' />
+        <Separator className='bg-[#1E1E1E] h-[0.8px]' />
       <section className="2xl:mx-[300px]">
         <Introduction />
       </section>
-        <hr className='w-full text-gray' />
+        <Separator className='bg-[#1E1E1E] h-[0.8px]' />
       <section className="2xl:mx-[300px]">
         <Rules />
       </section>
-        <hr className='w-full text-gray' />
+        <Separator className='bg-[#1E1E1E] h-[0.8px]' />
       <section className="2xl:mx-[300px]">
         <Attributes />
       </section>
-        <hr className='w-full text-gray' />
+        <Separator className='bg-[#1E1E1E] h-[0.8px]' />
       <section className="2xl:mx-[300px]">
-        FAQ
+        <FAQ />
       </section>
-        <hr className='w-full text-gray' />
+        <Separator className='bg-[#1E1E1E] h-[0.8px]' />
       <section className="2xl:mx-[300px]">
         Timeline
       </section>
-        <hr className='w-full text-gray' />
+        <Separator className='bg-[#1E1E1E] h-[0.8px]' />
       <section className="2xl:mx-[300px]">
         Rewards
       </section>
-        <hr className='w-full text-gray' />
+        <Separator className='bg-[#1E1E1E] h-[0.8px]' />
       <section className="2xl:mx-[300px]">
         Partners
       </section>
-        <hr className='w-full text-gray' />
+        <Separator className='bg-[#1E1E1E] h-[0.8px]' />
       <section className="2xl:mx-[300px]">
         Terms
       </section>
-        <hr className='w-full text-gray' />
+        <Separator className='bg-[#1E1E1E] h-[0.8px]' />
       <section className="2xl:mx-[300px]">
         Footer
       </section>

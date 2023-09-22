@@ -41,7 +41,7 @@ const Attributes = () => {
              of the solution.
           </div>
           <div>
-            <span className="text-cpinkx">Adherence to Hackathon Rules:&nbsp;</span> Judges will Ensure that the team adhered to the rules and
+            <span className="text-cpinkx">Adherence to Hackathon Rules:&nbsp;</span> Judges will ensure that the team adhered to the rules and
             and guidelines of the hackathon, including deadlines, use of specific technologies or APIs, 
             and any other competition-specific requirements.
           </div>
