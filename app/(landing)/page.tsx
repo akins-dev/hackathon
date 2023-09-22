@@ -25,10 +25,10 @@ export default function Home() {
   return (
     <div className="flex relative flex-col bg-bkg text-white overflow-hidden">
       <div className="absolute w-[200px] h-[150px] md:h-[200px] top-[120px] bg-cpurple
-      rounded-full md:left-[240px] custom-blur z-0 " />
+      rounded-full md:left-[240px] 2xl:left-[700px] custom-blur z-0 " />
       <div className=" hidden md:flex
       absolute w-[200px] h-[200px] top-[240px] bg-cpurple
-      right-[40px] custom-blur2 z-50 " />
+      right-[40px] 2xl:right-[340px] custom-blur2 z-50 " />
       <section className="2xl:mx-[300px]">
         <Navbar />
       </section>

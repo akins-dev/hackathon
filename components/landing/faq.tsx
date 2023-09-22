@@ -57,7 +57,7 @@ const FAQ = () => {
               <Accordion type="single" collapsible key={item.question}>
                 <AccordionItem value="item-1">
                   <AccordionTrigger className="font-semibold text-[10px] md:text-[12px] lg:text-[14px]">{item.question}</AccordionTrigger>
-                  <AccordionContent>
+                  <AccordionContent className="text-[10px] md:text-[12px] lg:text-[14px]">
                     {item.answer}
                   </AccordionContent>
                 </AccordionItem>
