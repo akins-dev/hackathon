@@ -35,20 +35,20 @@ const ContactPage = () => {
               Get in touch
             </div>
             <div className="flex flex-col ">
-              <p className=" cursor-pointer">Contact</p>
-              <p className=" cursor-pointer">Information</p>
+              <p className=" ">Contact</p>
+              <p className=" ">Information</p>
             </div>
             <div className="flex flex-col ">
-              <p className=" cursor-pointer">27,Alara Street</p>
-              <p className=" cursor-pointer">Yaba 100012</p>
-              <p className=" cursor-pointer">Lagos State</p>
+              <p className=" ">27,Alara Street</p>
+              <p className=" ">Yaba 100012</p>
+              <p className=" ">Lagos State</p>
             </div>
             <div className="flex flex-col ">
-              <p className=" cursor-pointer">Call us : 07067981819</p>
+              <p className=" ">Call us : 07067981819</p>
             </div>
             <div className="flex flex-col ">
-              <p className=" cursor-pointer">We are open from Monday - Friday</p>
-              <p className=" cursor-pointer">08:00am - 05:00pm</p>
+              <p className=" ">We are open from Monday - Friday</p>
+              <p className=" ">08:00am - 05:00pm</p>
             </div>
             <div className="flex gap-y-[10px] gap-x-[10px] flex-col">
               <div className=" cursor-pointer text-cpink text-[10px] md:text-[12px] lg:text-[14px]">

@@ -27,9 +27,9 @@ const Footer = () => {
           </div>
           <div className="">
             <div className="flex h-5 text-[10px] items-center space-x-4 text-sm">
-              <div className="flex cursor-pointer text-[12px] lg:text-[14px]">Term of Use</div>
+              <div className="flex  text-[12px] lg:text-[14px]">Term of Use</div>
               <Separator className='bg-cpink ' orientation="vertical" />
-              <div className="flex cursor-pointer text-[12px] lg:text-[14px]">Privacy Policy</div>
+              <div className="flex  text-[12px] lg:text-[14px]">Privacy Policy</div>
             </div>
           </div>
         </div>
@@ -72,18 +72,18 @@ const Footer = () => {
         </div>
 
         <div className="flex flex-col md:mx-auto mt-[16px] gap-y-[10px] md:col-span-1 col-span-3">
-          <div className="flex cursor-pointer text-[16px] text-cpink">
+          <div className="flex  text-[16px] text-cpink">
             Contact Us
           </div>
-          <div className="flex cursor-pointerflex-row mt-[20px]">
+          <div className="flex flex-row mt-[20px]">
             <div className="relative">
               <PhoneCall className="h-17 w-17" />
             </div>
-            <div className="ml-[10px] cursor-pointer text-[10px] md:text-[12px] lg:text-[14px]">
+            <div className="ml-[10px]  text-[10px] md:text-[12px] lg:text-[14px]">
               +234 6707653444
             </div>
           </div>
-          <div className="flex cursor-pointer flex-row mt-[20px]">
+          <div className="flex  flex-row mt-[20px]">
             <div className="relative">
               <MapPin className="h-17 w-17" />
             </div>
