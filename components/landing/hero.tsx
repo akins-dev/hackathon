@@ -34,7 +34,7 @@ const Hero = () => {
                     <h1 className='flex font-bold text-[30px] md:text-[34px] lg:text-[49px] xl:text-[70px] 2xl:text-[100px] mb-[10px] clash-display'>Hackathon &nbsp; <span className="text-cpink">1.0</span></h1>
                 </div>
                 <div className="flex max-w-[250px] md:max-w-[360px] lg:max-w-[430px] leading-normal mb-[20px]">
-                    <p className="md:font-semibold text-center md:text-start text-[14px] lg:text-[16px]">Participate in getlinked tech Hackathon 2023 stand a chance to win a Big prize</p>
+                    <p className="md:font-semibold text-center md:text-start text-[10px] lg:text-[16px]">Participate in getlinked tech Hackathon 2023 stand a chance to win a Big prize</p>
                 </div>
                 <div>
                     <Button content="Register" />

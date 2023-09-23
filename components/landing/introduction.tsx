@@ -29,7 +29,7 @@ const Introduction = () => {
           <h2 className="font-bold text-center md:text-start">Introduction to getlinked</h2>
           <h2 className="font-bold text-center md:text-start text-cpink">Tech Hackathon 1.0  </h2>
         </div>
-        <div className="flex mt-[14px] leading-loose max-w-[535px] 2xl:max-w-[1200px] text-center md:text-start md:text-[12px] lg:text-[14px]">
+        <div className="flex mt-[14px] leading-loose max-w-[535px] 2xl:max-w-[1200px] text-center md:text-start text-[10px] md:text-[12px] lg:text-[14px]">
           Our tech hackathon is a melting pot of visionaries, and its purpose is as clear as day;
           to shape the future. Whether you&#39;re a coding genius, a design maverick, or a concept wizard
           youu&#39;ll have the chance to transform your ideas into reality. Solving real-world problems,
