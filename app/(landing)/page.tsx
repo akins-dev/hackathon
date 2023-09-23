@@ -10,6 +10,7 @@ import Attributes from '@/components/landing/attributes'
 import FAQ from '@/components/landing/faq'
 import { Separator } from "@/components/ui/separator"
 import Timeline from '@/components/landing/timeline'
+import Rewards from '@/components/landing/rewards'
 
 
 export default function Home() {
@@ -58,8 +59,8 @@ export default function Home() {
         <Timeline />
       </section>
         <Separator className='bg-[#1E1E1E] h-[0.8px]' />
-      <section className="2xl:mx-[300px]">
-        Rewards
+      <section className="2xl:mx-[300px] bg-cdark">
+        <Rewards />
       </section>
         <Separator className='bg-[#1E1E1E] h-[0.8px]' />
       <section className="2xl:mx-[300px]">
