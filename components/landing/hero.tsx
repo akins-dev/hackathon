@@ -14,7 +14,7 @@ const Hero = () => {
   return (
     <div className='flex-col'>
         <div className='flex text-[12px] md:text-[18px] justify-center md:text-end md:justify-end mt-[20px]  md:mr-[25px] lg:mr-[60px] lg:text-[24px] font-bold    '>
-            <i className="z-50">
+            <i className="z-40">
                 <Typewriter
                     onInit={(typewriter) => {
                         typewriter

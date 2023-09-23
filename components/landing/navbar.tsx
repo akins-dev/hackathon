@@ -64,7 +64,7 @@ const Navbar = () => {
       {isOpen && (
         <div className="absolute z-50 rounded-[8px] shadow-md w-[60vw] md:w-3/4 bg-bkg overflow-hidden
         right-2 top-6 text-[14px]">
-          <div className="flex flex-col ml-[20px] my-[40px]">
+          <div className="flex flex-col ml-[20px] my-[40px] z-50">
             <>
               <MenuItem
                 onClick={() => {}}
