@@ -34,7 +34,7 @@ const Rewards = () => {
           <Image
             src="/rewards.png"
             alt="menu"
-            width={700}
+            width={730}
             height={494}
             draggable={false}
           />
