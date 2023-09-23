@@ -2,7 +2,6 @@
 
 import Link from "next/link"
 import { Separator } from "../ui/separator"
-import Image from "next/image"
 import { Facebook, Instagram, Linkedin, MapPin, PhoneCall, Twitter } from "lucide-react"
 
 
@@ -51,21 +50,23 @@ const Footer = () => {
           <div className="flex cursor-pointer ">
             Register
           </div>
-          <div className="flex gap-x-[10px] flex-row ">
+          <div className="flex gap-y-[20px] gap-x-[10px] flex-col md:flex-row ">
             <div className=" cursor-pointer text-cpink text-[10px] md:text-[12px] lg:text-[14px]">
               Follow us
             </div>
-            <div className="relative cursor-pointer">
-              <Instagram className="h-17 w-17" />
-            </div>
-            <div className="relative cursor-pointer">
-              <Twitter className="h-17 w-17" />
-            </div>
-            <div className="relative cursor-pointer">
-              <Facebook className="h-17 w-17" />
-            </div>
-            <div className="relative cursor-pointer">
-              <Linkedin className="h-17 w-17" />
+            <div className="flex gap-x-[10px]">
+              <div className="relative cursor-pointer">
+                <Instagram className="h-17 w-17" />
+              </div>
+              <div className="relative cursor-pointer">
+                <Twitter className="h-17 w-17" />
+              </div>
+              <div className="relative cursor-pointer">
+                <Facebook className="h-17 w-17" />
+              </div>
+              <div className="relative cursor-pointer">
+                <Linkedin className="h-17 w-17" />
+              </div>
             </div>
           </div>
         </div>
@@ -79,7 +80,7 @@ const Footer = () => {
               <PhoneCall className="h-17 w-17" />
             </div>
             <div className="ml-[10px] cursor-pointer text-[10px] md:text-[12px] lg:text-[14px]">
-              08033003300
+              +234 6707653444
             </div>
           </div>
           <div className="flex cursor-pointer flex-row mt-[20px]">

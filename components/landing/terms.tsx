@@ -35,8 +35,8 @@ const Terms = () => {
               <Image
                 src="/check.png"
                 alt="menu"
-                width={20}
-                height={20}
+                width={25}
+                height={25}
                 draggable={false}
               />
             </div>
@@ -49,8 +49,8 @@ const Terms = () => {
               <Image
                 src="/check.png"
                 alt="menu"
-                width={17}
-                height={17}
+                width={25}
+                height={25}
                 draggable={false}
               />
             </div>

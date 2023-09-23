@@ -38,8 +38,12 @@ const accordionObject = [
 
 const FAQ = () => {
   return (
-    <div className="flex flex-col-reverse md:flex-row mx-[40px] lg:mx-[60px] xl:mx-[120px] 2xl:mx-[240px] my-[30px] md:my-[40px] gap-x-[100px]">
+    <div className="flex relative flex-col-reverse md:flex-row mx-[40px] lg:mx-[60px] xl:mx-[120px] 2xl:mx-[240px] my-[30px] md:my-[40px] gap-x-[100px]">
       
+      {/* group 2 */}
+      <div className="absolute w-[250px] h-[200px] md:h-[200px] bg-cpurple
+        rounded-full md:-right-[60px] -top-[80px] 2xl:left-[700px] custom-blur z-0 " />
+
       <div className="flex flex-col mt-[40px] md:my-auto">
         <div className="flex flex-col text-[18px] md:text-[24px] lg:text-[32px] leading-normal clash-display">
           <h2 className="font-bold text-center md:text-start">Frequently Asked</h2>
@@ -66,7 +70,7 @@ const FAQ = () => {
           }
         </div>
       </div>
-      <div className="flex my-auto 2xl:mr-[400px] ">
+      <div className="flex my-auto 2xl:mr-[400px] z-50">
         <Image
           src="/faq.png"
           alt="menu"
@@ -75,7 +79,8 @@ const FAQ = () => {
           draggable={false}
         />
       </div>
-    </div>
+      
+      </div>
   )
 }
 

@@ -4,6 +4,7 @@ import Link from "next/link"
 import Image from "next/image"
 import { useCallback, useState } from "react"
 import { X } from "lucide-react"
+import { usePathname } from "next/navigation"
 
 import Button from "@/components/button"
 import { cn } from "@/lib/utils"
@@ -18,6 +19,8 @@ const Navbar = () => {
   const toggleOpen = useCallback(() => {
     setIsOpen((value) => !value)
   }, [])
+
+  const pathname = usePathname();
   
   return (
     <div className="flex lg:mt-[50px] mt-[20px] lg:mb-[20px] mb-[10px] lg:mx-[60px] xl:mx-[100px] 2xl:mx-[200px] mx-[30px] justify-between items-center overflow-hidden z-50">
@@ -38,9 +41,11 @@ const Navbar = () => {
           <div className={cn("lg:text-[16px] md:text-sm", constantClassName)}>
             FAQ
           </div>
-          <div className={constantClassName}>
-            Contact
-          </div>
+          <Link href="/contact">
+            <div className={cn(constantClassName, pathname == "/contact" ? "text-transparent" : "")}>
+              Contact
+            </div>
+          </Link>
         </div>
         <div>
           <Button content="Register" />

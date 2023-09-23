@@ -2,6 +2,7 @@
 
 import Image from 'next/image'
 import { Unica_One } from 'next/font/google'
+import Typewriter from "typewriter-effect";
 
 const unicaOne = Unica_One({ weight: ["400"], subsets: ["latin"] })
 const customClass = unicaOne.className + " text-[64px]"
@@ -13,7 +14,18 @@ const Hero = () => {
   return (
     <div className='flex-col'>
         <div className='flex text-[12px] md:text-[18px] justify-center md:text-end md:justify-end mt-[20px]  md:mr-[25px] lg:mr-[60px] lg:text-[24px] font-bold    '>
-            <i>Igniting a Revolution in HR Innovation</i>
+            <i className="z-50">
+                <Typewriter
+                    onInit={(typewriter) => {
+                        typewriter
+                            .typeString("Igniting a Revolution in HR Innovation")
+                            .pauseFor(1000)
+                            .deleteAll()
+                            .typeString("Igniting a Revolution in HR Innovation")
+                            .start();
+                    }}
+                />
+            </i>
         </div>
         <div className="flex flex-col md:flex-row">
             <div className="flex flex-col items-center md:items-start md:ml-[30px] lg:ml-[60px] xl:ml-[100px] 2xl:ml-[200px] leading-tight z-40">

@@ -5,8 +5,8 @@ import Button from '@/components/button'
 
 const Attributes = () => {
   return (
-    <div className="flex flex-col md:flex-row mx-[40px] lg:mx-[60px] xl:mx-[120px] 2xl:mx-[240px] my-[30px] md:my-[40px] gap-x-[100px]">
-      <div className="flex my-auto 2xl:mr-[400px]">
+    <div className="flex relative flex-col md:flex-row mx-[40px] lg:mx-[60px] xl:mx-[120px] 2xl:mx-[240px] my-[30px] md:my-[40px] gap-x-[100px]">
+      <div className="flex my-auto 2xl:mr-[400px] z-50">
         <Image
           src="/attribute.png"
           alt="menu"
@@ -15,7 +15,12 @@ const Attributes = () => {
           draggable={false}
         />
       </div>
-      <div className="flex flex-col mt-[40px] md:my-auto">
+
+      {/* group 2 */}
+      <div className="absolute w-[250px] h-[200px] md:h-[200px] bg-cpurple
+      rounded-full md:left-[20px] top-[450px] 2xl:left-[700px] custom-blur z-0 " />
+
+      <div className="flex flex-col mt-[40px] md:my-auto z-50">
         <div className="flex flex-col text-[18px] md:text-[24px] lg:text-[32px] leading-normal clash-display">
           <h2 className="font-bold text-center md:text-start">Judging Criteria</h2>
           <h2 className="font-bold text-center md:text-start text-cpink">Key attributes </h2>

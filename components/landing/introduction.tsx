@@ -1,8 +1,18 @@
 "use client"
 
 import Image from 'next/image'
+import { useEffect, useState } from 'react'
 
 const Introduction = () => {
+  const [isMounted, setIsMounted] = useState(false)
+
+  useEffect(() => {
+    setIsMounted(true)
+  }, [isMounted])
+
+  if (!isMounted) {
+    return null
+  }
   return (
     <div className="flex flex-col md:flex-row mx-[40px] lg:mx-[60px] xl:mx-[120px] 2xl:mx-[240px] my-[30px] md:my-[40px] gap-x-[100px]">
       <div className="flex my-auto 2xl:mr-[400px]">
