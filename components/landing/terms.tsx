@@ -35,8 +35,8 @@ const Terms = () => {
               <Image
                 src="/check.png"
                 alt="menu"
-                width={17}
-                height={17}
+                width={20}
+                height={20}
                 draggable={false}
               />
             </div>

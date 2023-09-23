@@ -13,6 +13,7 @@ import Timeline from '@/components/landing/timeline'
 import Rewards from '@/components/landing/rewards'
 import Partners from '@/components/landing/partners'
 import Terms from '@/components/landing/terms'
+import Footer from '@/components/landing/footer'
 
 
 export default function Home() {
@@ -73,8 +74,8 @@ export default function Home() {
         <Terms />
       </section>
         <Separator className='bg-[#1E1E1E] h-[0.8px]' />
-      <section className="2xl:mx-[300px]">
-        Footer
+      <section className="2xl:mx-[300px] bg-cdark">
+        <Footer />
       </section>
 
     </div>
