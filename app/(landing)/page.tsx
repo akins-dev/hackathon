@@ -9,6 +9,7 @@ import Rules from '@/components/landing/rules'
 import Attributes from '@/components/landing/attributes'
 import FAQ from '@/components/landing/faq'
 import { Separator } from "@/components/ui/separator"
+import Timeline from '@/components/landing/timeline'
 
 
 export default function Home() {
@@ -54,7 +55,7 @@ export default function Home() {
       </section>
         <Separator className='bg-[#1E1E1E] h-[0.8px]' />
       <section className="2xl:mx-[300px]">
-        Timeline
+        <Timeline />
       </section>
         <Separator className='bg-[#1E1E1E] h-[0.8px]' />
       <section className="2xl:mx-[300px]">

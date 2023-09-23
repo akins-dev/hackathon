@@ -22,26 +22,26 @@ const Attributes = () => {
         </div>
         <div className="flex flex-col gap-y-[20px] mt-[14px] leading-loose max-w-[535px] 2xl:max-w-[1200px] text-center md:text-start text-[10px] md:text-[12px] lg:text-[14px]">
           <div>
-            <span className="text-cpinkx font-bold text-[16px]">Innovation and Creativity:&nbsp;</span> Evaluate the uniqueness and creativity of the solution. Consider 
+            <span className="text-cpinkx font-bold text-[12px] md:text-[16px]">Innovation and Creativity:&nbsp;</span> Evaluate the uniqueness and creativity of the solution. Consider 
             whether it addressess a real-world problem in a novel way or introduces innovative features.
           </div>
           <div>
-            <span className="text-cpinkx font-bold text-[16px]">Functionality:&nbsp;</span> Access how well the solution works. Does it perform its intended functions 
+            <span className="text-cpinkx font-bold text-[12px] md:text-[16px]">Functionality:&nbsp;</span> Access how well the solution works. Does it perform its intended functions 
             effectively and without major issues? Judges would consider the completeness and 
             robustness of the solution.
           </div>
           <div>
-            <span className="text-cpinkx font-bold text-[16px]">Impact and Relevance:&nbsp;</span> Determine the potential impact of the solution in the real world.
+            <span className="text-cpinkx font-bold text-[12px] md:text-[16px]">Impact and Relevance:&nbsp;</span> Determine the potential impact of the solution in the real world.
              does it address a significant problem , and is it relevant to the target audience? 
              Judges would access the potential social, economic or environmental benefits.
           </div>
           <div>
-            <span className="text-cpinkx font-bold text-[16px]">Technical Complexity:&nbsp;</span> Evaluate the technical sophistication of the solution. Judges would consider
+            <span className="text-cpinkx font-bold text-[12px] md:text-[16px]">Technical Complexity:&nbsp;</span> Evaluate the technical sophistication of the solution. Judges would consider
              the complexity of the code, the use of advanced technologies or algorithms, and the scalability
              of the solution.
           </div>
           <div>
-            <span className="text-cpinkx font-bold text-[16px]">Adherence to Hackathon Rules:&nbsp;</span> Judges will ensure that the team adhered to the rules and
+            <span className="text-cpinkx font-bold text-[12px] md:text-[16px]">Adherence to Hackathon Rules:&nbsp;</span> Judges will ensure that the team adhered to the rules and
             and guidelines of the hackathon, including deadlines, use of specific technologies or APIs, 
             and any other competition-specific requirements.
           </div>
