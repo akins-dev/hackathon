@@ -70,7 +70,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="flex flex-col mx-auto mt-[16px] gap-y-[10px] md:col-span-1 col-span-3">
+        <div className="flex flex-col md:mx-auto mt-[16px] gap-y-[10px] md:col-span-1 col-span-3">
           <div className="flex cursor-pointer text-[16px] text-cpink">
             Contact Us
           </div>
