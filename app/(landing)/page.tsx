@@ -11,6 +11,7 @@ import FAQ from '@/components/landing/faq'
 import { Separator } from "@/components/ui/separator"
 import Timeline from '@/components/landing/timeline'
 import Rewards from '@/components/landing/rewards'
+import Partners from '@/components/landing/partners'
 
 
 export default function Home() {
@@ -64,7 +65,7 @@ export default function Home() {
       </section>
         <Separator className='bg-[#1E1E1E] h-[0.8px]' />
       <section className="2xl:mx-[300px]">
-        Partners
+        <Partners />
       </section>
         <Separator className='bg-[#1E1E1E] h-[0.8px]' />
       <section className="2xl:mx-[300px]">

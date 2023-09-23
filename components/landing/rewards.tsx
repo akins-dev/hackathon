@@ -14,7 +14,7 @@ const Rewards = () => {
             <h2 className="font-bold text-center md:text-start">Prizes and</h2>
             <h2 className="font-bold text-center md:text-start text-cpink">Rewards </h2>
           </div>
-          <div className="flex mt-[14px] text-center md:text-left leading-loose max-w-[355px] 2xl:max-w-[1200px] text-[10px] md:text-[12px] lg:text-[14px]">
+          <div className="flex mt-[14px] items-center justify-center md:items-start md:justify-start text-center md:text-start leading-loose md:max-w-[355px] 2xl:max-w-[1200px] text-[10px] md:text-[12px] lg:text-[14px]">
             Highlight of the prizes or rewards for winners and participants.
           </div>
         </div>
