@@ -127,6 +127,7 @@ body,
   filter: blur(220px);
 }
 
+
 @layer base {
   :root {
     --background: 0 0% 100%;

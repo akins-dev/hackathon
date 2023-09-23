@@ -45,7 +45,7 @@ const FAQ = () => {
           <h2 className="font-bold text-center md:text-start">Frequently Asked</h2>
           <h2 className="font-bold text-center md:text-start text-cpink">Questions </h2>
         </div>
-        <div className="flex flex-col mb-[20px] font-semibold mt-[14px] leading-loose max-w-[390px] 2xl:max-w-[1200px] text-center md:text-start text-[10px] md:text-[12px] lg:text-[14px]">
+        <div className="flex flex-col mb-[20px] mt-[14px] leading-loose max-w-[390px] 2xl:max-w-[1200px] text-center md:text-start text-[10px] md:text-[12px] lg:text-[14px]">
           <div>
             We got answers to the questions that you might want to ask about
             &nbsp;<span className="font-bold">getlinked Hackathon 1.0</span>
@@ -56,7 +56,7 @@ const FAQ = () => {
             accordionObject?.map((item) => (
               <Accordion type="single" collapsible key={item.question}>
                 <AccordionItem value="item-1">
-                  <AccordionTrigger className="font-semibold text-[10px] md:text-[12px] lg:text-[14px]">{item.question}</AccordionTrigger>
+                  <AccordionTrigger className="text-[10px] md:text-[12px] lg:text-[14px]">{item.question}</AccordionTrigger>
                   <AccordionContent className="text-[10px] md:text-[12px] lg:text-[14px]">
                     {item.answer}
                   </AccordionContent>
