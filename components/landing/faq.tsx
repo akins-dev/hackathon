@@ -11,7 +11,7 @@ import {
 
 const accordionObject = [
   {
-    question: "Can I work on a project I started berore the hackathon?",
+    question: "Can I work on a project I started before the hackathon?",
     answer: "Yes. It adheres to the WAI-ARIA design pattern."
   },
   {

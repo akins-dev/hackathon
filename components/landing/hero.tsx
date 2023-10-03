@@ -55,7 +55,7 @@ const Hero = () => {
                     <p className={customClass}>00<span className="mt-[44px] text-[14px] font-bold">S</span></p>
                 </div>
             </div>
-            <div className="flex-grow mr-[2px] z-0">
+            <div data-aos='fade-right' className="flex-grow mr-[2px] z-0">
                 <Image
                     src="/hackathonGuy2.png"
                     alt="menu"

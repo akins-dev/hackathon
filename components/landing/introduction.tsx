@@ -1,10 +1,17 @@
-"use client"
+"use client";
 
-import Image from 'next/image'
-import { useEffect, useState } from 'react'
+import Image from 'next/image';
+import { useEffect, useState } from 'react';
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Introduction = () => {
-  const [isMounted, setIsMounted] = useState(false)
+  const [isMounted, setIsMounted] = useState(false);
+
+  useEffect(() => {
+        AOS.init()
+    }, [])
 
   useEffect(() => {
     setIsMounted(true)
@@ -15,16 +22,18 @@ const Introduction = () => {
   }
   return (
     <div className="flex flex-col md:flex-row mx-[40px] lg:mx-[60px] xl:mx-[120px] 2xl:mx-[240px] my-[30px] md:my-[40px] gap-x-[100px]">
-      <div className="flex my-auto 2xl:mr-[400px]">
+      <div data-aos='zoom-in-down' data-aos-easing='ease-in-sine' 
+       className="flex my-auto 2xl:mr-[400px]">
         <Image
-          src="/theBigIdea.png"
+          src="/the-big-idea.png"
           alt="menu"
           width={490}
           height={477}
           draggable={false}
+          quality={100}
         />
       </div>
-      <div className="flex flex-col mt-[40px] md:my-auto">
+      <div data-aos='fade-left' className="flex flex-col mt-[40px] md:my-auto">
         <div className="flex flex-col text-[18px] md:text-[24px] lg:text-[32px] leading-normal clash-display">
           <h2 className="font-bold text-center md:text-start">Introduction to getlinked</h2>
           <h2 className="font-bold text-center md:text-start text-cpink">Tech Hackathon 1.0  </h2>

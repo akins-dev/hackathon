@@ -1,11 +1,20 @@
 "use client"
 
 import Image from 'next/image'
+import { useEffect } from 'react';
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Rules = () => {
+
+  useEffect(() => {
+        AOS.init()
+    }, [])
+
   return (
     <div className="flex relative flex-col md:flex-row-reverse mx-[40px] lg:mx-[60px] xl:mx-[120px] 2xl:mx-[240px] my-[30px] md:my-[40px] gap-x-[100px]">
-      <div className="flex my-auto 2xl:mr-[400px] z-50">
+      <div data-aos='zoom-in-down' data-aos-easing='ease-in-sine' className="flex my-auto 2xl:mr-[400px] z-50">
         <Image
           src="/rules.png"
           alt="menu"
@@ -22,7 +31,7 @@ const Rules = () => {
       <div className="absolute w-[250px] h-[200px] md:h-[200px] bg-cpurple
        md:-right-[190px] top-[250px] 2xl:left-[700px] custom-blur z-0 " />
 
-      <div className="flex flex-col mt-[40px] md:my-auto z-50">
+      <div data-aos='zoom-in-up' data-aos-easing='ease-in-sine' className="flex flex-col mt-[40px] md:my-auto z-50">
         <div className="flex flex-col text-[18px] md:text-[24px] lg:text-[32px] leading-normal clash-display">
           <h2 className="font-bold text-center md:text-start">Rules and</h2>
           <h2 className="font-bold text-center md:text-start text-cpink">Guidlines </h2>
