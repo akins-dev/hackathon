@@ -5,9 +5,13 @@ import Button from '@/components/button'
 
 const Terms = () => {
   return (
-    <div className="flex flex-col gap-y-[20px] md:flex-row mx-[40px] lg:mx-[60px] xl:mx-[120px] 2xl:mx-[240px] my-[30px] md:my-[40px] gap-x-[100px]">
+    <div className="flex relative flex-col gap-y-[20px] md:flex-row mx-[40px] lg:mx-[60px] xl:mx-[120px] 2xl:mx-[240px] my-[30px] md:my-[40px] gap-x-[100px]">
       
-      <div className="flex flex-col mt-[40px] md:my-auto">
+      {/* group 2 */}
+      <div className="absolute w-[250px] h-[200px] md:h-[320px] bg-cpurple
+        rounded-full md:-left-[80px] -bottom-[20px] 2xl:left-[700px] custom-blur z-0 " />
+
+      <div className="flex flex-col mt-[40px] md:my-auto z-50">
         <div className="flex flex-col text-[18px] md:text-[24px] lg:text-[32px] leading-normal clash-display">
           <h2 className="font-bold text-center md:text-start">Privacy Policy and</h2>
           <h2 className="font-bold text-center md:text-start text-cpink">Terms</h2>

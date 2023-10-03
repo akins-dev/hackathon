@@ -27,9 +27,9 @@ const Footer = () => {
           </div>
           <div className="">
             <div className="flex h-5 text-[10px] items-center space-x-4 text-sm">
-              <div className="flex  text-[12px] lg:text-[14px]">Term of Use</div>
+              <div className="flex cursor-pointer text-[12px] lg:text-[14px]">Term of Use</div>
               <Separator className='bg-cpink ' orientation="vertical" />
-              <div className="flex  text-[12px] lg:text-[14px]">Privacy Policy</div>
+              <div className="flex cursor-pointer text-[12px] lg:text-[14px]">Privacy Policy</div>
             </div>
           </div>
         </div>
@@ -51,20 +51,20 @@ const Footer = () => {
             Register
           </div>
           <div className="flex gap-y-[20px] gap-x-[10px] flex-col md:flex-row ">
-            <div className=" cursor-pointer text-cpink text-[10px] md:text-[12px] lg:text-[14px]">
+            <div className="text-cpink text-[10px] md:text-[12px] lg:text-[14px]">
               Follow us
             </div>
             <div className="flex gap-x-[10px]">
-              <div className="relative cursor-pointer">
+              <div className="relative hover:text-cpink transition cursor-pointer">
                 <Instagram className="h-17 w-17" />
               </div>
-              <div className="relative cursor-pointer">
+              <div className="relative hover:text-cpink transition cursor-pointer">
                 <Twitter className="h-17 w-17" />
               </div>
-              <div className="relative cursor-pointer">
+              <div className="relative hover:text-cpink transition cursor-pointer">
                 <Facebook className="h-17 w-17" />
               </div>
-              <div className="relative cursor-pointer">
+              <div className="relative hover:text-cpink transition cursor-pointer">
                 <Linkedin className="h-17 w-17" />
               </div>
             </div>

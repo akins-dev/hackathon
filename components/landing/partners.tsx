@@ -4,7 +4,7 @@ import Image from "next/image"
 
 const Partners = () => {
   return (
-    <div className="flex flex-col mx-[40px] lg:mx-[60px] xl:mx-[120px] 2xl:mx-[240px] my-[30px] md:my-[40px] gap-x-[100px]">
+    <div className="flex relative flex-col mx-[40px] lg:mx-[60px] xl:mx-[120px] 2xl:mx-[240px] my-[30px] md:my-[40px] gap-x-[100px]">
       <div className="flex justify-center items-center flex-col mb-[40px] md:mb-[60px] mt-[20px]">
         <div className="flex flex-col text-[18px] md:text-[24px] lg:text-[32px] leading-normal clash-display">
           <h2 className="font-bold text-center md:text-start">Partners and Sponsors</h2>
@@ -14,7 +14,7 @@ const Partners = () => {
         </div>
       </div>
 
-      <div className="flex max-w-[1255px] max-h-[560pxx] border border-cpink border-solid rounded-[8px] p-[20px] md:p-[40px] lg:p-[80px] xl:p-[120px] mx-auto ">
+      <div className="flex max-w-[1255px] max-h-[560pxx] border border-cpink border-solid rounded-[8px] p-[20px] md:p-[40px] lg:p-[80px] xl:p-[120px] mx-auto z-50">
         
         <Image
           src="/Partner and Sponsors.png"
@@ -24,6 +24,14 @@ const Partners = () => {
           draggable={false}
         />
       </div>
+
+      {/* group 2 */}
+      <div className="absolute w-[250px] h-[200px] md:h-[320px] bg-cpurple
+        rounded-full md:-left-[60px] top-[150px] 2xl:left-[700px] custom-blur z-0 " />
+
+      <div className="absolute w-[250px] h-[200px] md:h-[200px] bg-cpurple
+        rounded-full md:-right-[160px] -bottom-[80px] 2xl:left-[700px] custom-blur z-0 " />
+
 
     </div>
   )

@@ -31,7 +31,7 @@ const ContactPage = () => {
         </section>
         <section className="grid grid-cols-2 flex-row  md:flex-col my-[100px]">
           <div className="flex flex-col mx-auto mt-[16px] gap-y-[20px] grid-span-1">
-            <div className="flex cursor-pointer text-[36px] font-bold clash-display text-cpink">
+            <div className="flex text-[36px] font-bold clash-display text-cpink">
               Get in touch
             </div>
             <div className="flex flex-col ">
@@ -51,20 +51,20 @@ const ContactPage = () => {
               <p className=" ">08:00am - 05:00pm</p>
             </div>
             <div className="flex gap-y-[10px] gap-x-[10px] flex-col">
-              <div className=" cursor-pointer text-cpink text-[10px] md:text-[12px] lg:text-[14px]">
+              <div className=" text-cpink text-[10px] md:text-[12px] lg:text-[14px]">
                 Share on
               </div>
               <div className="flex gap-x-[10px]">
-                <div className="relative cursor-pointer">
+                <div className="relative hover:text-cpink transition cursor-pointer">
                   <Instagram className="h-17 w-17" />
                 </div>
-                <div className="relative cursor-pointer">
+                <div className="relative hover:text-cpink transition cursor-pointer">
                   <Twitter className="h-17 w-17" />
                 </div>
-                <div className="relative cursor-pointer">
+                <div className="relative hover:text-cpink transition cursor-pointer">
                   <Facebook className="h-17 w-17" />
                 </div>
-                <div className="relative cursor-pointer">
+                <div className="relative hover:text-cpink transition cursor-pointer">
                   <Linkedin className="h-17 w-17" />
                 </div>
               </div>
@@ -73,38 +73,38 @@ const ContactPage = () => {
 
           <div className="grid-span-1">
             <Card className="w-[350px]">
-                <CardHeader>
-                  <CardTitle>Create project</CardTitle>
-                  <CardDescription>Deploy your new project in one-click.</CardDescription>
-                </CardHeader>
-                <CardContent>
-                  <form>
-                    <div className="grid w-full items-center gap-4">
-                      <div className="flex flex-col space-y-1.5">
-                        <Label htmlFor="name">Name</Label>
-                        <Input id="name" placeholder="Name of your project" />
-                      </div>
-                      <div className="flex flex-col space-y-1.5">
-                        <Label htmlFor="framework">Framework</Label>
-                        <Select>
-                          <SelectTrigger id="framework">
-                            <SelectValue placeholder="Select" />
-                          </SelectTrigger>
-                          <SelectContent position="popper">
-                            <SelectItem value="next">Next.js</SelectItem>
-                            <SelectItem value="sveltekit">SvelteKit</SelectItem>
-                            <SelectItem value="astro">Astro</SelectItem>
-                            <SelectItem value="nuxt">Nuxt.js</SelectItem>
-                          </SelectContent>
-                        </Select>
-                      </div>
+              <CardHeader>
+                <CardTitle>Create project</CardTitle>
+                <CardDescription>Deploy your new project in one-click.</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <form>
+                  <div className="grid w-full items-center gap-4">
+                    <div className="flex flex-col space-y-1.5">
+                      <Label htmlFor="name">Name</Label>
+                      <Input id="name" placeholder="Name of your project" />
                     </div>
-                  </form>
-                </CardContent>
-                <CardFooter className="flex justify-between">
-                  <Button content="Deploy"/>
-                </CardFooter>
-              </Card>
+                    <div className="flex flex-col space-y-1.5">
+                      <Label htmlFor="framework">Framework</Label>
+                      <Select>
+                        <SelectTrigger id="framework">
+                          <SelectValue placeholder="Select" />
+                        </SelectTrigger>
+                        <SelectContent position="popper">
+                          <SelectItem value="next">Next.js</SelectItem>
+                          <SelectItem value="sveltekit">SvelteKit</SelectItem>
+                          <SelectItem value="astro">Astro</SelectItem>
+                          <SelectItem value="nuxt">Nuxt.js</SelectItem>
+                        </SelectContent>
+                      </Select>
+                    </div>
+                  </div>
+                </form>
+              </CardContent>
+              <CardFooter className="flex justify-between">
+                <Button content="Deploy"/>
+              </CardFooter>
+            </Card>
           </div>
         </section>
     </div>

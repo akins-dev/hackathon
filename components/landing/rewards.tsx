@@ -4,7 +4,15 @@ import Image from "next/image"
 
 const Rewards = () => {
   return (
-    <div className="flex flex-col mx-[40px] lg:mx-[60px] xl:mx-[120px] 2xl:mx-[240px] my-[30px] md:my-[40px] gap-x-[100px]">
+    <div className="flex relative flex-col mx-[40px] lg:mx-[60px] xl:mx-[120px] 2xl:mx-[240px] my-[30px] md:my-[40px] gap-x-[100px]">
+      
+      {/* group 2 */}
+      <div className="absolute w-[250px] h-[200px] md:h-[200px] bg-cpurple
+        rounded-full md:left-[80px] top-[250px] 2xl:left-[700px] custom-blur z-0 " />
+
+      <div className="absolute w-[250px] h-[200px] md:h-[200px] bg-cpurple
+        rounded-full md:-right-[250px] bottom-[50px] 2xl:left-[700px] custom-blur z-0 " />
+
       <div className="grid grid-cols-2"> 
         <div className="hidded md:col-span-1">
 
@@ -21,7 +29,7 @@ const Rewards = () => {
       </div>
 
       <div className="flex flex-col md:flex-row mx-[40px] lg:mx-[60px] xl:mx-[120px] 2xl:mx-[240px] my-[30px] md:my-[40px] gap-x-[100px]">
-        <div className="flex mb-[40px] 2xl:mr-[400px]">
+        <div className="flex mb-[40px] 2xl:mr-[400px] z-50">
           <Image
             src="/trophy.png"
             alt="menu"
@@ -30,7 +38,7 @@ const Rewards = () => {
             draggable={false}
           />
         </div>
-        <div className="flex ">
+        <div className="flex  z-50">
           <Image
             src="/rewards.png"
             alt="menu"

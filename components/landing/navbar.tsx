@@ -1,14 +1,18 @@
 "use client"
 
+import { X } from "lucide-react"
+
 import Link from "next/link"
 import Image from "next/image"
 import { useCallback, useState } from "react"
-import { X } from "lucide-react"
 import { usePathname } from "next/navigation"
+import { Montserrat } from 'next/font/google'
 
 import Button from "@/components/button"
 import { cn } from "@/lib/utils"
 import MenuItem from "@/components/menu-item"
+
+const montserrat = Montserrat({ subsets: ['latin'] })
 
 const constantClassName = "flex font-medium cursor-pointer bg-clip-text hover:text-transparent bg-gradient-to-r from-cpurple via-cpink  to-cpinkx transition-colors duration-300 active:text-transparent"
 
@@ -31,7 +35,7 @@ const Navbar = () => {
       </div>
 
       <div className="hidden items-center gap-x-10 xl:gap-x-24 md:flex">
-        <div className="flex items-center md:gap-x-3 lg:gap-x-8 xl:gap-x-12">
+        <div className={cn("flex items-center md:gap-x-3 lg:gap-x-8 xl:gap-x-12", montserrat.className)}>
           <div className={cn("lg:text-[16px] md:text-sm", constantClassName)}>
             Timeline
           </div>
@@ -39,7 +43,7 @@ const Navbar = () => {
             Overview
           </div>
           <div className={cn("lg:text-[16px] md:text-sm", constantClassName)}>
-            FAQ
+            FAQs
           </div>
           <Link href="/contact">
             <div className={cn(constantClassName, pathname == "/contact" ? "text-transparent" : "")}>
@@ -62,8 +66,8 @@ const Navbar = () => {
          />
       </div>
       {isOpen && (
-        <div className="absolute z-50 rounded-[8px] shadow-md w-[60vw] md:w-3/4 bg-bkg overflow-hidden
-        right-2 top-6 text-[14px]">
+        <div className="absolute z-50 rounded-[8px] w-[60vw] md:w-3/4 bg-bkg overflow-hidden
+        right-6 top-6 text-[14px] shadow-lg">
           <div className="flex flex-col ml-[20px] my-[40px] z-50">
             <>
               <MenuItem
