@@ -40,8 +40,8 @@ const Hero = () => {
         <div className="flex flex-col md:flex-row">
             <div className="flex flex-col items-center md:items-start md:ml-[30px] lg:ml-[60px] xl:ml-[100px] 2xl:ml-[200px] leading-tight z-40">
                 <div>
-                    <h1 className='flex font-bold text-[30px] md:text-[34px] lg:text-[49px] xl:text-[70px] 2xl:text-[100px] mt-[30px] clash-display'>getlinked Tech</h1>
-                    <h1 className='flex font-bold text-[30px] md:text-[34px] lg:text-[49px] xl:text-[70px] 2xl:text-[100px] mb-[10px] clash-display'>Hackathon &nbsp; <span className="text-cpink">1.0</span></h1>
+                    <h1 className='flex font-bold text-[30px] md:text-[34px] lg:text-[49px] xl:text-[60px] 2xl:text-[100px] mt-[30px] clash-display'>getlinked Tech</h1>
+                    <h1 className='flex font-bold text-[30px] md:text-[34px] lg:text-[49px] xl:text-[60px] 2xl:text-[100px] mb-[10px] clash-display'>Hackathon &nbsp; <span className="text-cpink">1.0</span></h1>
                 </div>
                 <div className="flex max-w-[250px] md:max-w-[360px] lg:max-w-[430px] leading-normal mb-[20px]">
                     <p className="md:font-semibold text-center md:text-start text-[10px] lg:text-[16px]">Participate in getlinked tech Hackathon 2023 stand a chance to win a Big prize</p>
@@ -55,7 +55,7 @@ const Hero = () => {
                     <p className={customClass}>00<span className="mt-[44px] text-[14px] font-bold">S</span></p>
                 </div>
             </div>
-            <div data-aos='fade-right' className="flex-grow mr-[2px] z-0">
+            <div data-aos='fade-right' className="md:mr-[25px] lg:mr-[60px] z-0">
                 <Image
                     src="/hackathonGuy2.png"
                     alt="menu"
