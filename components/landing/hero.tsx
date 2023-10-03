@@ -2,7 +2,12 @@
 
 import Image from 'next/image'
 import { Unica_One } from 'next/font/google'
+import { useEffect } from 'react';
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import Typewriter from "typewriter-effect";
+
 
 const unicaOne = Unica_One({ weight: ["400"], subsets: ["latin"] })
 const customClass = unicaOne.className + " text-[64px]"
@@ -11,6 +16,11 @@ const customClass = unicaOne.className + " text-[64px]"
 import Button from '@/components/button'
 
 const Hero = () => {
+
+    useEffect(() => {
+        AOS.init()
+    }, [])
+
   return (
     <div className='flex-col'>
         <div className='flex text-[12px] md:text-[18px] justify-center md:text-end md:justify-end mt-[20px]  md:mr-[25px] lg:mr-[60px] lg:text-[24px] font-bold    '>
