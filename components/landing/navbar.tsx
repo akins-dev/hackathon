@@ -45,7 +45,7 @@ const Navbar = () => {
           <div className={cn("lg:text-[16px] md:text-sm", constantClassName)}>
             FAQs
           </div>
-          <Link href="/contact">
+          <Link href="/">
             <div className={cn(constantClassName, pathname == "/contact" ? "text-transparent" : "")}>
               Contact
             </div>

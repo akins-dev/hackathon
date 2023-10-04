@@ -3,7 +3,16 @@
 import Image from 'next/image'
 import Button from '@/components/button'
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
+
 const Terms = () => {
+
+  useEffect(() => {
+          AOS.init()
+      }, [])
+
   return (
     <div className="flex relative flex-col gap-y-[20px] md:flex-row mx-[40px] lg:mx-[60px] xl:mx-[120px] 2xl:mx-[240px] my-[30px] md:my-[40px] gap-x-[100px]">
       
@@ -12,18 +21,18 @@ const Terms = () => {
         rounded-full md:-left-[80px] -bottom-[20px] 2xl:left-[700px] custom-blur z-0 " />
 
       <div className="flex flex-col mt-[40px] md:my-auto z-50">
-        <div className="flex flex-col text-[18px] md:text-[24px] lg:text-[32px] leading-normal clash-display">
+        <div data-aos-easing='ease-in-sine' data-aos='fade-right' className="flex flex-col text-[18px] md:text-[24px] lg:text-[32px] leading-normal clash-display">
           <h2 className="font-bold text-center md:text-start">Privacy Policy and</h2>
           <h2 className="font-bold text-center md:text-start text-cpink">Terms</h2>
         </div>
-        <div className="flex leading-loose font-light mt-[4px] max-w-[535px] 2xl:max-w-[1200px] justify-center items-center md:justify-start md:items-start text-center md:text-start text-[10px] md:text-[12px] lg:text-[14px]">
+        <div data-aos-easing='ease-in-sine' data-aos='fade-right' className="flex leading-loose font-light mt-[4px] max-w-[535px] 2xl:max-w-[1200px] justify-center items-center md:justify-start md:items-start text-center md:text-start text-[10px] md:text-[12px] lg:text-[14px]">
           Last updated on September 12, 2023
         </div>
-        <div className="flex mt-[18px] leading-loose max-w-[535px mb-[40px] 2xl:max-w-[1200px] text-center md:text-start text-[10px] md:text-[12px] lg:text-[14px]">
+        <div data-aos-easing='ease-in-sine' data-aos='fade-right' className="flex mt-[18px] leading-loose max-w-[535px mb-[40px] 2xl:max-w-[1200px] text-center md:text-start text-[10px] md:text-[12px] lg:text-[14px]">
           Below are our privacy & policy which outline a lot of goodies. It&#39;s our aim to always take care of our participants
         </div>
 
-        <div className="flex flex-col max-w-[569px] max-h-[635px] bg-[#1E1E1E]/20 border border-cpink border-solid rounded-[8px] p-[20px] md:p-[40px] lg:p-[80px] xl:p-[50px] mx-auto">
+        <div data-aos-easing='ease-in-sine' data-aos='zoom-in-up' className="flex flex-col max-w-[569px] max-h-[635px] bg-[#1E1E1E]/20 border border-cpink border-solid rounded-[8px] p-[20px] md:p-[40px] lg:p-[80px] xl:p-[50px] mx-auto">
           <p className=" text-[10px] md:text-[12px] text-center md:text-start lg:text-[14px] mb-[30px]">
             A getlinked tech Hackathon 1.0, we value or privacy and are committed to protecting your
             personal information. This Privacy Policy outlines how we collect, use, disclose, and 

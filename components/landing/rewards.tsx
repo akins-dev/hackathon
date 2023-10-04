@@ -2,7 +2,16 @@
 
 import Image from "next/image"
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
+
 const Rewards = () => {
+
+  useEffect(() => {
+          AOS.init()
+      }, [])
+
   return (
     <div className="flex relative flex-col mx-[40px] lg:mx-[60px] xl:mx-[120px] 2xl:mx-[240px] my-[30px] md:my-[40px] gap-x-[100px]">
       
@@ -17,7 +26,7 @@ const Rewards = () => {
         <div className="hidded md:col-span-1">
 
         </div>
-        <div className="col-span-2 md:col-span-1 flex-col mb-[20px] md:mb-[40px] mt-[20px]">
+        <div data-aos='fade-left' data-aos-easing='ease-in-sine' className="col-span-2 md:col-span-1 flex-col mb-[20px] md:mb-[40px] mt-[20px]">
           <div className="flex flex-col text-[18px] md:text-[24px] lg:text-[32px] leading-normal clash-display">
             <h2 className="font-bold text-center md:text-start">Prizes and</h2>
             <h2 className="font-bold text-center md:text-start text-cpink">Rewards </h2>
@@ -29,16 +38,16 @@ const Rewards = () => {
       </div>
 
       <div className="flex flex-col md:flex-row mx-[40px] lg:mx-[60px] xl:mx-[120px] 2xl:mx-[240px] my-[30px] md:my-[40px] gap-x-[100px]">
-        <div className="flex mb-[40px] 2xl:mr-[400px] z-50">
+        <div data-aos='fade-right' data-aos-easing='ease-in-sine' className="flex mb-[40px] 2xl:mr-[400px] z-50">
           <Image
             src="/trophy.png"
             alt="menu"
-            width={548}
-            height={482}
+            width={598}
+            height={598}
             draggable={false}
           />
         </div>
-        <div className="flex  z-50">
+        <div data-aos='fade-left' data-aos-easing='ease-in-sine' className="flex  z-50">
           <Image
             src="/rewards.png"
             alt="menu"

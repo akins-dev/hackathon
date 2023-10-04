@@ -2,11 +2,19 @@
 
 import Image from "next/image"
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 const Timeline = () => {
+
+  useEffect(() => {
+          AOS.init()
+      }, [])
+
   return (
     <div className="flex flex-col mx-[40px] lg:mx-[60px] xl:mx-[120px] 2xl:mx-[240px] my-[30px] md:my-[40px] gap-x-[100px]">
-      <div className="flex justify-center items-center flex-col mb-[40px] md:mb-[60px] mt-[20px]">
+      <div data-aos='zoom-in-up' data-aos-easing='ease-in-sine' className="flex justify-center items-center flex-col mb-[40px] md:mb-[60px] mt-[20px]">
         <div className="flex flex-col text-[18px] md:text-[24px] lg:text-[32px] leading-normal clash-display">
           <h2 className="font-bold text-center md:text-start">Timeline</h2>
         </div>
@@ -15,7 +23,7 @@ const Timeline = () => {
         </div>
       </div>
 
-      <div className="custom-timeline">
+      <div data-aos='zoom-in-up' data-aos-easing='ease-in-sine' className="custom-timeline">
         {/* One */}
         <div className="custom-container custom-left-container">
           <Image
