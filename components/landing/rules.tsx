@@ -18,8 +18,8 @@ const Rules = () => {
         <Image
           src="/rules.png"
           alt="menu"
-          width={490}
-          height={477}
+          width={550}
+          height={557}
           draggable={false}
         />
       </div>
@@ -39,7 +39,7 @@ const Rules = () => {
         <div className="flex mt-[14px] leading-loose max-w-[535px] 2xl:max-w-[1200px] text-center md:text-start text-[10px] md:text-[12px] lg:text-[14px]">
           Our tech hackathon is a melting pot of visionaries, and its purpose is as clear as day;
           to shape the future. Whether you&#39;re a coding genius, a design maverick, or a concept wizard
-          youu&#39;ll have the chance to transform your ideas into reality. Solving real-world problems,
+          you&#39;ll have the chance to transform your ideas into reality. Solving real-world problems,
           pushing the boundaries of technology, and creating solutions that can change the world, that&#39;s
           what we&#39;re all about!
         </div>
