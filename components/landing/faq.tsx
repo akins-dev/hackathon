@@ -54,9 +54,9 @@ const FAQ = () => {
         rounded-full md:-right-[60px] -top-[80px] 2xl:left-[700px] custom-blur z-0 " />
 
       <div className="flex flex-col mt-[40px] md:my-auto">
-        <div data-aos='fade-right' data-aos-easing='ease-in-sine' className="flex flex-col text-[18px] md:text-[24px] lg:text-[32px] leading-normal clash-display">
-          <h2 className="font-bold text-center md:text-start">Frequently Asked</h2>
-          <h2 className="font-bold text-center md:text-start text-cpink">Questions </h2>
+        <div className="flex flex-col text-[18px] md:text-[24px] lg:text-[32px] leading-normal clash-display">
+          <h2 data-aos='fade-right' data-aos-easing='ease-in-sine' className="font-bold text-center md:text-start">Frequently Asked</h2>
+          <h2 data-aos='fade-right' data-aos-easing='ease-in-sine' className="font-bold text-center md:text-start text-cpink">Questions </h2>
         </div>
         <div data-aos='fade-right' data-aos-easing='ease-in-sine' className="flex flex-col mb-[20px] mt-[14px] leading-loose max-w-[390px] 2xl:max-w-[1200px] text-center md:text-start text-[10px] md:text-[12px] lg:text-[14px]">
           <div>
@@ -64,10 +64,10 @@ const FAQ = () => {
             &nbsp;<span className="font-bold">getlinked Hackathon 1.0</span>
           </div>
         </div>
-        <div  data-aos='zoom-in-up' data-aos-easing='ease-in-sine' className="flex max-w-[500px] flex-col">
+        <div className="flex max-w-[500px] flex-col">
           {
             accordionObject?.map((item) => (
-              <Accordion type="single" collapsible key={item.question}>
+              <Accordion  data-aos='zoom-in-up' data-aos-easing='ease-in-sine' type="single" collapsible key={item.question}>
                 <AccordionItem value="item-1">
                   <AccordionTrigger className="text-[10px] md:text-[12px] lg:text-[14px]">{item.question}</AccordionTrigger>
                   <AccordionContent className="text-[10px] md:text-[12px] lg:text-[14px]">

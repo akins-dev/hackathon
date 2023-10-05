@@ -21,9 +21,9 @@ const Terms = () => {
         rounded-full md:-left-[80px] -bottom-[20px] 2xl:left-[700px] custom-blur z-0 " />
 
       <div className="flex flex-col mt-[40px] md:my-auto z-50">
-        <div data-aos-easing='ease-in-sine' data-aos='fade-right' className="flex flex-col text-[18px] md:text-[24px] lg:text-[32px] leading-normal clash-display">
-          <h2 className="font-bold text-center md:text-start">Privacy Policy and</h2>
-          <h2 className="font-bold text-center md:text-start text-cpink">Terms</h2>
+        <div className="flex flex-col text-[18px] md:text-[24px] lg:text-[32px] leading-normal clash-display">
+          <h2 data-aos-easing='ease-in-sine' data-aos='fade-right' className="font-bold text-center md:text-start">Privacy Policy and</h2>
+          <h2 data-aos-easing='ease-in-sine' data-aos='fade-right' className="font-bold text-center md:text-start text-cpink">Terms</h2>
         </div>
         <div data-aos-easing='ease-in-sine' data-aos='fade-right' className="flex leading-loose font-light mt-[4px] max-w-[535px] 2xl:max-w-[1200px] justify-center items-center md:justify-start md:items-start text-center md:text-start text-[10px] md:text-[12px] lg:text-[14px]">
           Last updated on September 12, 2023

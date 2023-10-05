@@ -5,6 +5,7 @@ import Image from "next/image"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
+import { Divide } from "lucide-react";
 
 const Rewards = () => {
 
@@ -26,12 +27,12 @@ const Rewards = () => {
         <div className="hidded md:col-span-1">
 
         </div>
-        <div data-aos='fade-left' data-aos-easing='ease-in-sine' className="col-span-2 md:col-span-1 flex-col mb-[20px] md:mb-[40px] mt-[20px]">
+        <div className="col-span-2 md:col-span-1 flex-col mb-[20px] md:mb-[40px] mt-[20px]">
           <div className="flex flex-col text-[18px] md:text-[24px] lg:text-[32px] leading-normal clash-display">
-            <h2 className="font-bold text-center md:text-start">Prizes and</h2>
-            <h2 className="font-bold text-center md:text-start text-cpink">Rewards </h2>
+            <h2 data-aos='fade-left' data-aos-easing='ease-in-sine' className="font-bold text-center md:text-start">Prizes and</h2>
+            <h2 data-aos='fade-left' data-aos-easing='ease-in-sine' className="font-bold text-center md:text-start text-cpink">Rewards </h2>
           </div>
-          <div className="flex mt-[14px] items-center justify-center md:items-start md:justify-start text-center md:text-start leading-loose md:max-w-[355px] 2xl:max-w-[1200px] text-[10px] md:text-[12px] lg:text-[14px]">
+          <div data-aos='fade-left' data-aos-easing='ease-in-sine' className="flex mt-[14px] items-center justify-center md:items-start md:justify-start text-center md:text-start leading-loose md:max-w-[355px] 2xl:max-w-[1200px] text-[10px] md:text-[12px] lg:text-[14px]">
             Highlight of the prizes or rewards for winners and participants.
           </div>
         </div>

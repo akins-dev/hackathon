@@ -33,12 +33,12 @@ const Introduction = () => {
           quality={100}
         />
       </div>
-      <div data-aos='fade-left' className="flex flex-col mt-[40px] md:my-auto">
+      <div className="flex flex-col mt-[40px] md:my-auto">
         <div className="flex flex-col text-[18px] md:text-[24px] lg:text-[32px] leading-normal clash-display">
-          <h2 className="font-bold text-center md:text-start">Introduction to getlinked</h2>
-          <h2 className="font-bold text-center md:text-start text-cpink">Tech Hackathon 1.0  </h2>
+          <h2 data-aos='fade-left' data-aos-easing='ease-in-sine' className="font-bold text-center md:text-start">Introduction to getlinked</h2>
+          <h2 data-aos='fade-left' data-aos-easing='ease-in-sine' className="font-bold text-center md:text-start text-cpink">Tech Hackathon 1.0  </h2>
         </div>
-        <div className="flex mt-[14px] leading-loose max-w-[535px] 2xl:max-w-[1200px] text-center md:text-start text-[10px] md:text-[12px] lg:text-[14px]">
+        <div data-aos='fade-left' data-aos-easing='ease-in-sine' className="flex mt-[14px] leading-loose max-w-[535px] 2xl:max-w-[1200px] text-center md:text-start text-[10px] md:text-[12px] lg:text-[14px]">
           Our tech hackathon is a melting pot of visionaries, and its purpose is as clear as day;
           to shape the future. Whether you&#39;re a coding genius, a design maverick, or a concept wizard
           youu&#39;ll have the chance to transform your ideas into reality. Solving real-world problems,

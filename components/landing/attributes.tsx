@@ -30,9 +30,9 @@ const Attributes = () => {
       rounded-full md:left-[20px] top-[450px] 2xl:left-[700px] custom-blur z-0 " />
 
       <div className="flex flex-col mt-[40px] md:my-auto z-50">
-        <div data-aos='fade-left' data-aos-easing='ease-in-sine' className="flex flex-col text-[18px] md:text-[24px] lg:text-[32px] leading-normal clash-display">
-          <h2 className="font-bold text-center md:text-start">Judging Criteria</h2>
-          <h2 className="font-bold text-center md:text-start text-cpink">Key attributes </h2>
+        <div className="flex flex-col text-[18px] md:text-[24px] lg:text-[32px] leading-normal clash-display">
+          <h2 data-aos='fade-left' data-aos-easing='ease-in-sine' className="font-bold text-center md:text-start">Judging Criteria</h2>
+          <h2 data-aos='fade-left' data-aos-easing='ease-in-sine' className="font-bold text-center md:text-start text-cpink">Key attributes </h2>
         </div>
         <div className="flex flex-col gap-y-[20px] mt-[14px] leading-loose max-w-[535px] 2xl:max-w-[1200px] text-center md:text-start text-[10px] md:text-[12px] lg:text-[14px]">
           <div data-aos='zoom-in-up' data-aos-easing='ease-in-sine'>
