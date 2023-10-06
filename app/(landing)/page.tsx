@@ -29,6 +29,11 @@ export default function Home() {
 
   return (
     <div className="flex relative flex-col bg-bkg text-white overflow-hidden">
+      <div className="star-layers fixed h-[100vh] w-[100vw] 2xl:translate-x-[10%]">
+        <div id="stars" className="max-md:invisible" />
+        <div id="stars2" />
+        <div id="stars3" />
+      </div>
       {/* group 1 */}
       <div className="absolute w-[200px] h-[150px] md:h-[200px] top-[120px] bg-cpurple
       rounded-full md:left-[240px] 2xl:left-[700px] custom-blur z-0 " />
