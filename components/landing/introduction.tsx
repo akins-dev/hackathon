@@ -3,8 +3,8 @@
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
 
-  import AOS from 'aos';
-  import 'aos/dist/aos.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Introduction = () => {
   const [isMounted, setIsMounted] = useState(false);

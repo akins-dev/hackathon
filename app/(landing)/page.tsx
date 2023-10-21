@@ -41,7 +41,7 @@ export default function Home() {
       absolute w-[200px] h-[200px] top-[240px] bg-cpurple
       right-[40px] 2xl:right-[340px] custom-blur2 z-50 " />
 
-      <section className="2xl:mx-[300px]">
+      <section className="2xl:mx-[300px] z-[100]">
         <Navbar />
       </section>
         <Separator className='bg-[#1E1E1E] h-[0.8px]' />
@@ -81,7 +81,7 @@ export default function Home() {
         <Terms />
       </section>
         <Separator className='bg-[#1E1E1E] h-[0.8px]' />
-      <section className="2xl:mx-[300px] bg-cdark">
+      <section className="2xl:mx-[300px] bg-cdark z-[80]">
         <Footer />
       </section>
 
